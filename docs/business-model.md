@@ -24,10 +24,10 @@ for San Marino.
 Any actual portal registration or filing submission requires
 Market-Entry Compliance Governor clearance and ALWAYS escalates to
 human sign-off (`:filing/draft`/`:filing/submit` never auto-commit at
-any rollout phase, see `src/marketentry/phase.cljc`). A false or
+any rollout phase, see `src/marketentry/phase.cljk`). A false or
 fabricated regulatory-requirement claim is a HARD hold, not overridable
 by human approval. The flagship check
-(`non-resident-tax-address-missing`, see `src/marketentry/governor.cljc`)
+(`non-resident-tax-address-missing`, see `src/marketentry/governor.cljk`)
 independently re-verifies -- rather than trusts the advisor's own claim
 -- that a non-resident awarded bidder has established the San Marino
 tax address for service and industrial-licence reference Legge 96/1999

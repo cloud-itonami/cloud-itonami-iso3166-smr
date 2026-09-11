@@ -29,7 +29,7 @@ as `cloud-itonami-iso3166-and`/`-lie`/`-mco`/`-jpn`/`-deu`/`-ben`/`-atg`:
   shape distinct from Andorra's two-axis EUR-threshold recompute,
   Liechtenstein's VAT-turnover fiscal-rep gate and Monaco's
   registry-membership boolean.
-- `src/statute/facts.cljc` -- general-law catalog: Legge 47/2006
+- `src/statute/facts.cljk` -- general-law catalog: Legge 47/2006
   (Company Law), Legge 17 febbraio 1961 n.7 (Legge per la tutela del
   lavoro e dei lavoratori, labour law), Legge 13 ottobre 1984 n.91
   (General Income Tax) and Legge 17 novembre 2005 n.165 (Legge sulle
@@ -53,7 +53,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for San Marino:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from

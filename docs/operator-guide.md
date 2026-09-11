@@ -2,7 +2,7 @@
 
 Human-gated filing only. `:filing/draft` and `:filing/submit` always
 interrupt for human approval, at every rollout phase (see
-`src/marketentry/phase.cljc`), regardless of the Market-Entry
+`src/marketentry/phase.cljk`), regardless of the Market-Entry
 Compliance Governor's verdict.
 
 Portal: public procurement notices are aggregated at gov.sm under
